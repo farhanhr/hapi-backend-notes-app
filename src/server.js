@@ -50,7 +50,7 @@ const init = async () => {
     },
     validate: (artifacts) => ({
       isValid: true,
-      credensial: {
+      credensials: {
         id: artifacts.decoded.payload.id,
       },
     }),
